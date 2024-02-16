@@ -2,18 +2,27 @@
 # │  The properties below are used to create the ImplementationGuide resource. For a list of       │
 # │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: et-ips-example
-canonical: www.earlytracks.com/ips_ig
-name: ET-IPS-Example
-title: Early Tracks IPS FHIR Implementagion Guide
+id: hl7.fhir.et.ips
+canonical: www.earlytracks.com/ips_be
+name: hl7.fhir.et.ips
+title: Belgian IPS
 status: draft
 publisher: EarlyTracks
-description: Simple implementation guide to showcase our IPS example.
+description: Belgian IPS by EarlyTracks
 date: 2024-02-18
 version: 0.1.0
 fhirVersion: 4.0.1
-copyrightYear: 2021+
+copyrightYear: 2023+
 releaseLabel: ci-build
+
+contact:
+  - name: EarlyTracks Semantic Interoperability Service
+    telecom:
+      - system: email
+        value: resources@earlytracks.com
+        use: work
+
+        
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │
