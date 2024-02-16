@@ -1,0 +1,27 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: et-ips-example
+canonical: www.earlytracks.com/ips_ig
+name: ET-IPS-Example
+title: Early Tracks IPS FHIR Implementagion Guide
+status: draft
+publisher: EarlyTracks
+description: Simple implementation guide to showcase our IPS example.
+date: 2024-02-18
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2021+
+releaseLabel: ci-build
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+  FHIR Artifacts: #artifact.html
+      Profiles and Extensions: profiles-and-extensions.html
+      Terminology: terminology.html
+  Examples: examples.html
+
