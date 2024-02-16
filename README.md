@@ -1,2 +1,3 @@
 # fhir
-EarlyTracks FHIR Implementation Guide
+EarlyTracks FHIR Implementation Guide.
+Configured using Sushi.
