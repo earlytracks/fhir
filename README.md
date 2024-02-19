@@ -1,3 +1,7 @@
-# fhir
-EarlyTracks FHIR Implementation Guide.
-Configured using Sushi.
+# EarlyTracks IPS-BE Repository
+
+# How to get started
+
+## Install SUSHI
+
+## Generate JSON
