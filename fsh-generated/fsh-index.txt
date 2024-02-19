@@ -1,9 +1,0 @@
-Output File                            Name           Type      FSH File                                         Lines
-AllergyIntolerance-allergy-1.json      allergy-1      Instance  Allergies-BeAllergyIntolerance.fsh               5 - 29
-Condition-problem-1.json               problem-1      Instance  Problem_List-BeProblem.fsh                       7 - 25
-MedicationStatement-medication-1.json  medication-1   Instance  Medication_Summary-Medication_Statement_IPS.fsh  3 - 15
-Organization-organization1.json        organization1  Instance  Custodian-BeOrganization.fsh                     4 - 49
-Patient-etpatient0001.json             etpatient0001  Instance  Subject-BePatient.fsh                            8 - 96
-Practitioner-practitioner1.json        practitioner1  Instance  Author-BePractitioner.fsh                        1 - 37
-Procedure-procedure-1.json             procedure-1    Instance  History_of_procedures-Procedure_IPS.fsh          3 - 12
-Provenance-provenance-1.json           provenance-1   Instance  Attester-BeProvenance.fsh                        5 - 16
