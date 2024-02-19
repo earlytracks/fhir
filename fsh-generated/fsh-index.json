@@ -1,0 +1,66 @@
+[
+  {
+    "outputFile": "AllergyIntolerance-allergy-1.json",
+    "fshName": "allergy-1",
+    "fshType": "Instance",
+    "fshFile": "Allergies-BeAllergyIntolerance.fsh",
+    "startLine": 5,
+    "endLine": 29
+  },
+  {
+    "outputFile": "Condition-problem-1.json",
+    "fshName": "problem-1",
+    "fshType": "Instance",
+    "fshFile": "Problem_List-BeProblem.fsh",
+    "startLine": 7,
+    "endLine": 25
+  },
+  {
+    "outputFile": "MedicationStatement-medication-1.json",
+    "fshName": "medication-1",
+    "fshType": "Instance",
+    "fshFile": "Medication_Summary-Medication_Statement_IPS.fsh",
+    "startLine": 3,
+    "endLine": 15
+  },
+  {
+    "outputFile": "Organization-organization1.json",
+    "fshName": "organization1",
+    "fshType": "Instance",
+    "fshFile": "Custodian-BeOrganization.fsh",
+    "startLine": 4,
+    "endLine": 49
+  },
+  {
+    "outputFile": "Patient-etpatient0001.json",
+    "fshName": "etpatient0001",
+    "fshType": "Instance",
+    "fshFile": "Subject-BePatient.fsh",
+    "startLine": 8,
+    "endLine": 96
+  },
+  {
+    "outputFile": "Practitioner-practitioner1.json",
+    "fshName": "practitioner1",
+    "fshType": "Instance",
+    "fshFile": "Author-BePractitioner.fsh",
+    "startLine": 1,
+    "endLine": 37
+  },
+  {
+    "outputFile": "Procedure-procedure-1.json",
+    "fshName": "procedure-1",
+    "fshType": "Instance",
+    "fshFile": "History_of_procedures-Procedure_IPS.fsh",
+    "startLine": 3,
+    "endLine": 12
+  },
+  {
+    "outputFile": "Provenance-provenance-1.json",
+    "fshName": "provenance-1",
+    "fshType": "Instance",
+    "fshFile": "Attester-BeProvenance.fsh",
+    "startLine": 5,
+    "endLine": 16
+  }
+]

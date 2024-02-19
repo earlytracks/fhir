@@ -1,0 +1,36 @@
+{
+  "resourceType": "Procedure",
+  "id": "procedure-1",
+  "status": "completed",
+  "category": {
+    "coding": [
+      {
+        "code": "386637004",
+        "system": "http://snomed.info/sct",
+        "display": "Obstetric procedure (procedure)"
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "22633006",
+        "system": "http://snomed.info/sct",
+        "display": "Vaginal delivery, medical personnel present (procedure)"
+      }
+    ],
+    "text": "Vaginal delivery"
+  },
+  "subject": {
+    "reference": "Patient/etpatient0001",
+    "display": "Josephine La Paradisio"
+  },
+  "performedDateTime": "2012-06-02",
+  "performer": [
+    {
+      "actor": {
+        "display": "Mme Martha Vroedvrouw"
+      }
+    }
+  ]
+}

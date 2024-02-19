@@ -1,0 +1,47 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "medication-1",
+  "status": "active",
+  "medicationReference": {
+    "reference": "Medication/medication-1",
+    "display": "aspirin"
+  },
+  "subject": {
+    "reference": "Patient/etpatient0001",
+    "display": "Josephine La Paradisio"
+  },
+  "effectivePeriod": {
+    "start": "2014"
+  },
+  "dosage": [
+    {
+      "text": "80 mg/day",
+      "timing": {
+        "repeat": {
+          "frequency": 1,
+          "period": 1,
+          "periodUnit": "d"
+        }
+      },
+      "route": {
+        "coding": [
+          {
+            "code": "26643006",
+            "system": "http://snomed.info/sct",
+            "display": "Oral route (qualifier value)"
+          }
+        ]
+      },
+      "doseAndRate": [
+        {
+          "doseQuantity": {
+            "value": 80,
+            "code": "mg",
+            "system": "http://unitsofmeasure.org",
+            "unit": "mg"
+          }
+        }
+      ]
+    }
+  ]
+}

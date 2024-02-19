@@ -1,0 +1,103 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "hl7.fhir.et.ips",
+  "url": "www.earlytracks.com/ips_be/ImplementationGuide/hl7.fhir.et.ips",
+  "version": "0.1.0",
+  "name": "hl7fhiretips",
+  "title": "Belgian IPS",
+  "status": "draft",
+  "date": "2024-02-18",
+  "contact": [
+    {
+      "name": "EarlyTracks Semantic Interoperability Service",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "resources@earlytracks.com",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Belgian IPS by EarlyTracks",
+  "packageId": "hl7.fhir.et.ips",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "AllergyIntolerance/allergy-1"
+        },
+        "name": "allergy-1",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Patient/etpatient0001"
+        },
+        "name": "etpatient0001",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "MedicationStatement/medication-1"
+        },
+        "name": "medication-1",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/organization1"
+        },
+        "name": "organization1",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/practitioner1"
+        },
+        "name": "practitioner1",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Condition/problem-1"
+        },
+        "name": "problem-1",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Procedure/procedure-1"
+        },
+        "name": "procedure-1",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Provenance/provenance-1"
+        },
+        "name": "provenance-1",
+        "exampleBoolean": true
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": []
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2023+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}
