@@ -25,11 +25,11 @@ To generate the JSON example files using Sushi, simply run:
 
 
 ## Next Steps
-The official IPS Implementation Guide references international profiles in its composition (Conditions, Procedures, etc) which makes it incompatible with the belgian CareSets (e.g. BEProblem).
+The official IPS Implementation Guide references uv.IPS profiles in its composition (Conditions, Procedures, etc) which makes it incompatible with the belgian CareSets (e.g. BEProblem).
 
 The next step are:
 
-1. Create a BE-IPS IG
+1. Create a BE-IPS IG (Done)
 1. Create a IPS-BE profile that references Belgian CareSets
 1. Update examples
 
