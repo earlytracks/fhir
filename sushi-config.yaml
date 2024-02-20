@@ -2,8 +2,9 @@
 # │  The properties below are used to create the ImplementationGuide resource. For a list of       │
 # │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.et.ips
-canonical: www.earlytracks.com/ips_be
+id: hl7.fhir.et.be-ips
+url: https://www.earlytracks.com/standards/fhir/ips_be
+canonical: https://www.earlytracks.com/standards/fhir/ips_be
 name: hl7.fhir.et.ips
 title: Belgian IPS
 status: draft
@@ -33,3 +34,9 @@ menu:
       Terminology: terminology.html
   Examples: examples.html
 
+
+dependencies:
+  hl7.fhir.us.core: latest
+  hl7.fhir.be.core: latest
+  hl7.fhir.be.core-clinical: latest
+  hl7.fhir.uv.ips: latest
