@@ -1,1 +1,12 @@
-fsh-generate/** */
+# SUSHI generated files #
+######################
+fsh-generated
+
+# Windows generated files #
+###########################
+Thumbs.db
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
