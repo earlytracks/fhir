@@ -14,6 +14,7 @@ Usage: #example
 * category = $be-cs-problem-category#problem "Problem"
 * severity = $sct#24484000 "Severe"
 * code = $sct#11826671000119104 "Strain of muscle of left hand (disorder)"
+* code[=].text = "Additional text"
 * bodySite = $be-cs-bodysite#IM "Intramuscular"
 * bodySite.text = "left hand"
 * bodySite.id = "bs-01"
