@@ -9,7 +9,7 @@ To install sushi, follow the guidance here: https://fshschool.org/docs/sushi/ins
 
 ### Generate JSON
 To generate the JSON example files using Sushi, simply run:
-> sush build
+> sushi build
 
 ### Example Files
 | Output File                            | Name          | Type     | FSH File                                         | Lines  |
