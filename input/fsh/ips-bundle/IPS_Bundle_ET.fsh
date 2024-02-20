@@ -80,7 +80,7 @@ Usage: #inline
 * section[=].entry = Reference(allergy-1)
 * section[+].title = "History of Procedures"
 * section[=].code.coding.system = "http://loinc.org"
-* section[=].code.coding.code  = "47519-4"
+* section[=].code.coding.code  = $loinc#47519-4 "History of Procedures Document"
 * section[=].code.coding.display = "History of Procedures Document"
 * section[=].text.status = #generated
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Vaginal delivery, medical personnel present (procedure)</div>"
