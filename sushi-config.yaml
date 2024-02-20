@@ -7,7 +7,6 @@ canonical: www.earlytracks.com/ips_be
 name: hl7.fhir.et.ips
 title: Belgian IPS
 status: draft
-publisher: EarlyTracks
 description: Belgian IPS by EarlyTracks
 date: 2024-02-18
 version: 0.1.0
