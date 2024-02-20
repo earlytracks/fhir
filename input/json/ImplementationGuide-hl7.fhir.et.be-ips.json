@@ -1,0 +1,143 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "hl7.fhir.et.be-ips",
+  "url": "https://www.earlytracks.com/standards/fhir/ips_be",
+  "version": "0.1.0",
+  "name": "hl7fhiretips",
+  "title": "Belgian IPS",
+  "status": "draft",
+  "date": "2024-02-18",
+  "contact": [
+    {
+      "name": "EarlyTracks Semantic Interoperability Service",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "resources@earlytracks.com",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Belgian IPS by EarlyTracks",
+  "packageId": "hl7.fhir.et.be-ips",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "hl7.fhir.us.core",
+      "version": "6.1.0",
+      "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
+      "id": "hl7_fhir_us_core"
+    },
+    {
+      "packageId": "hl7.fhir.be.core",
+      "version": "2.0.1",
+      "uri": "https://www.ehealth.fgov.be/standards/fhir/core/ImplementationGuide/hl7.fhir.be.core",
+      "id": "hl7_fhir_be_core"
+    },
+    {
+      "packageId": "hl7.fhir.be.core-clinical",
+      "version": "1.0.0",
+      "uri": "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ImplementationGuide/hl7.fhir.be.core-clinical",
+      "id": "hl7_fhir_be_core_clinical"
+    },
+    {
+      "packageId": "hl7.fhir.uv.ips",
+      "version": "1.1.0",
+      "uri": "http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips",
+      "id": "hl7_fhir_uv_ips"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "AllergyIntolerance/allergy-1"
+        },
+        "name": "allergy-1",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Patient/etpatient0001"
+        },
+        "name": "etpatient0001",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/BundleBeIPS"
+        },
+        "name": "IPS BE Bundle",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Bundle/IPS-examples-Bundle-01"
+        },
+        "name": "IPS-examples-Bundle-01",
+        "exampleCanonical": "https://www.earlytracks.com/standards/fhir/ips_be/StructureDefinition/BundleBeIPS"
+      },
+      {
+        "reference": {
+          "reference": "MedicationStatement/medication-1"
+        },
+        "name": "medication-1",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/organization1"
+        },
+        "name": "organization1",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/practitioner1"
+        },
+        "name": "practitioner1",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Condition/problem-1"
+        },
+        "name": "problem-1",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Procedure/procedure-1"
+        },
+        "name": "procedure-1",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Provenance/provenance-1"
+        },
+        "name": "provenance-1",
+        "exampleBoolean": true
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": []
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2023+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "resourceType": "Practitioner",
+  "id": "practitioner1",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-07-01T13:30:55.864+00:00",
+    "profile": [
+      "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitioner"
+    ]
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin",
+      "value": "79121137740"
+    },
+    {
+      "use": "official",
+      "system": "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi",
+      "value": "18749704477"
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "family": "Pulaski",
+      "given": [
+        "Katherine"
+      ],
+      "suffix": [
+        "MD"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "022675198",
+      "use": "work"
+    },
+    {
+      "system": "email",
+      "value": "katherine.pulaski@enterprisehospital.be",
+      "use": "work"
+    },
+    {
+      "system": "fax",
+      "value": "022675209",
+      "use": "work"
+    }
+  ],
+  "address": [
+    {
+      "use": "home",
+      "text": "Jupiterlaan 5, 1853 Grimbergen",
+      "line": [
+        "Jupiterlaan 5"
+      ],
+      "_line": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+              "valueString": "Jupiterlaan"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+              "valueString": "5"
+            }
+          ]
+        }
+      ],
+      "city": "Grimbergen",
+      "postalCode": "1853",
+      "country": "BE"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1979-12-11"
+}

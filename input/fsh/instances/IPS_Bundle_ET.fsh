@@ -17,7 +17,7 @@ Alias: $allergyintolerance-clinical = http://terminology.hl7.org/CodeSystem/alle
 Alias: $allergyintolerance-verification = http://terminology.hl7.org/CodeSystem/allergyintolerance-verification
 
 Instance: IPS-examples-Bundle-01
-InstanceOf: Bundle
+InstanceOf: BundleBeIPS
 Usage: #example
 * language = #en-US
 * identifier.system = "urn:oid:2.16.724.4.8.10.200.10"
