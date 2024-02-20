@@ -5,7 +5,7 @@ Alias: $sct = http://snomed.info/sct
 Alias: $be-cs-bodysite = https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-bodysite
 
 Instance: problem-1
-InstanceOf: Condition
+InstanceOf: BeProblem
 Usage: #example
 * language = #nl
 * identifier.value = "123456"

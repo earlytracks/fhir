@@ -2,7 +2,7 @@ Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $cd-hcparty = https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty
 
 Instance: organization1
-InstanceOf: Organization
+InstanceOf: BeOrganization
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2019-07-01T13:30:55.864+00:00"

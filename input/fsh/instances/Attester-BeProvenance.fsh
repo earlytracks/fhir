@@ -3,7 +3,7 @@ Alias: $v3-DataOperation = http://terminology.hl7.org/CodeSystem/v3-DataOperatio
 Alias: $provenance-participant-type = http://terminology.hl7.org/CodeSystem/provenance-participant-type
 
 Instance: provenance-1
-InstanceOf: Provenance
+InstanceOf: BeProvenance
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2019-06-27T08:39:24+02:00"
