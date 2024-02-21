@@ -25,12 +25,13 @@ To generate the JSON example files using Sushi, simply run:
 
 ### How to validate FHIR Resource Files
 A FHIR resource can be validated using the FHIR Validator, which is a Java standalone tool. 
-The validator requires Java and can be downloaded following instructions here: https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator
+The validator requires Java and can be downloaded following instructions here: https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator.
+
 Files can be then validated by executing the validator_cli.jar and passing the following parameters:
 1. the path to the input file to validate
-1. a path to an output file to save the results of the validation
-1. a URL to the resource's Implementation Guide page
-1. a URL to the resource's Profile page.
+1. `-output` + a path to an output file to save the results of the validation
+1. `-ig` + a URL to the resource's Implementation Guide page
+1. `-profile` + a URL to the resource's Profile page.
 
 For example, to validate `AllergyIntolerance-allergy-1.json`, run the following command:
 ```
