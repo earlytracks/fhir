@@ -23,7 +23,7 @@ To generate the JSON example files using Sushi, simply run:
 | Procedure-procedure-1.json             | procedure-1   | Instance | History_of_procedures-Procedure_IPS.fsh         | 3 - 12 |
 | Provenance-provenance-1.json           | provenance-1  | Instance | Attester-BeProvenance.fsh                       | 5 - 16 |
 
-### Validate FHIR Resource Files
+### How to validate FHIR Resource Files
 A FHIR resource can be validated using the FHIR Validator, which is a Java standalone tool. 
 The validator requires Java and can be downloaded following instructions here: https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator
 Files can be then validated by executing the validator_cli.jar and passing the following parameters:
