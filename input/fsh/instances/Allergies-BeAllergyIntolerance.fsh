@@ -3,7 +3,7 @@ Alias: $allergyintolerance-clinical = http://terminology.hl7.org/CodeSystem/alle
 Alias: $allergyintolerance-verification = http://terminology.hl7.org/CodeSystem/allergyintolerance-verification
 
 Instance: allergy-1
-InstanceOf: AllergyIntolerance
+InstanceOf: BeAllergyIntolerance
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2019-07-01T13:30:55.864+00:00"

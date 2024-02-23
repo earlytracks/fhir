@@ -40,3 +40,4 @@ dependencies:
   hl7.fhir.be.core: latest
   hl7.fhir.be.core-clinical: latest
   hl7.fhir.uv.ips: latest
+  hl7.fhir.be.allergy: latest
