@@ -25,6 +25,12 @@
     "reference": "Patient/etpatient0001",
     "display": "Josephine La Paradisio"
   },
+  "encounter":{
+  "reference": "Encounter/etencounter0001"
+  },
+   "recorder":{
+  "reference": "Practitioner/etpractitioner0001"
+  },
   "performedDateTime": "2012-06-02",
   "performer": [
     {

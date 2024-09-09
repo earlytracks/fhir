@@ -14,6 +14,12 @@
     }
   ],
   "recorded": "2019-06-27T08:39:24+02:00",
+  "patient": {
+    "reference": "Patient/etpatient0001"
+  },
+  "encounter":{
+  "reference": "Encounter/etencounter0001"
+  },
   "reason": [
     {
       "coding": [

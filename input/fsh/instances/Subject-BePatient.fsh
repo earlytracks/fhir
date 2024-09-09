@@ -94,3 +94,4 @@ Usage: #example
 * contact.telecom.value = "+31201234567"
 * contact.telecom.use = #mobile
 * generalPractitioner = Reference(Practitioner/practitioner1)
+* deceased = false
