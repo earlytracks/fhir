@@ -1,6 +1,6 @@
 {
   "resourceType": "Condition",
-  "id": "problem-1",
+  "id": "problem-2",
   "meta": {
     "profile": [
       "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-problem"
@@ -9,11 +9,11 @@
   "language": "nl",
   "identifier": [
     {
-      "value": "99999999",
+      "value": "222222222",
       "system": "fhir.zas.be/condition"
     },
     {
-      "value": "ABCD-123123",
+      "value": "ABCD-999999",
       "system": "fhir.mariamiddelares.be/condition"
     }
   ],

@@ -4,13 +4,13 @@ Alias: $be-cs-problem-category = https://www.ehealth.fgov.be/standards/fhir/core
 Alias: $sct = http://snomed.info/sct
 Alias: $be-cs-bodysite = https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-bodysite
 
-Instance: problem-1
+Instance: problem-2
 InstanceOf: BeProblem
 Usage: #example
 * language = #nl
-* identifier[+].value = "99999999"
+* identifier[+].value = "222222222"
 * identifier[=].system = "fhir.zas.be/condition"
-* identifier[+].value = "ABCD-123123"
+* identifier[+].value = "ABCD-999999"
 * identifier[=].system = "fhir.mariamiddelares.be/condition"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed

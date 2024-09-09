@@ -1,0 +1,16 @@
+{
+  "resourceType": "Linkage",
+  "id": "LinkageExample",
+  "active": true,
+  "author": {
+    "reference": "Practitioner/practitioner1"
+  },
+  "item": [
+    {
+      "type": "source",
+      "resource": {
+        "reference": "Condition/problem-1"
+      }
+    }
+  ]
+}

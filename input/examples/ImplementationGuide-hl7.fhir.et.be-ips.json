@@ -33,7 +33,7 @@
     },
     {
       "packageId": "hl7.fhir.be.core",
-      "version": "2.0.1",
+      "version": "2.1.2",
       "uri": "https://www.ehealth.fgov.be/standards/fhir/core/ImplementationGuide/hl7.fhir.be.core",
       "id": "hl7_fhir_be_core"
     },
@@ -45,9 +45,15 @@
     },
     {
       "packageId": "hl7.fhir.uv.ips",
-      "version": "1.1.0",
+      "version": "2.0.0-ballot",
       "uri": "http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips",
       "id": "hl7_fhir_uv_ips"
+    },
+    {
+      "packageId": "hl7.fhir.be.allergy",
+      "version": "1.2.0",
+      "uri": "https://www.ehealth.fgov.be/standards/fhir/allergy/ImplementationGuide/hl7.fhir.be.allergy",
+      "id": "hl7_fhir_be_allergy"
     }
   ],
   "definition": {
@@ -64,6 +70,14 @@
           "reference": "Patient/etpatient0001"
         },
         "name": "etpatient0001",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Linkage/LinkageExample"
+        },
+        "name": "Example Linkage Resource",
+        "description": "This is a Linkage resource example to link multiple Patient records.",
         "exampleBoolean": true
       },
       {
@@ -106,6 +120,13 @@
           "reference": "Condition/problem-1"
         },
         "name": "problem-1",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Condition/problem-2"
+        },
+        "name": "problem-2",
         "exampleBoolean": true
       },
       {

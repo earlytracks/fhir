@@ -658,7 +658,12 @@
         "language": "nl",
         "identifier": [
           {
-            "value": "123456"
+            "value": "99999999",
+            "system": "fhir.zas.be/condition"
+          },
+          {
+            "value": "ABCD-123123",
+            "system": "fhir.mariamiddelares.be/condition"
           }
         ],
         "clinicalStatus": {
