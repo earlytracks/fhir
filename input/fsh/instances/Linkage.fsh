@@ -19,3 +19,6 @@ Description: "This is a Linkage resource example to link multiple Patient record
 * item[+].type = #source
 * item[=].resource =  Reference(Condition/problem-1)
 
+* item[+].type = #alternative
+* item[=].resource =  Reference(Condition/problem-2)
+

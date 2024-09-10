@@ -11,6 +11,12 @@
       "resource": {
         "reference": "Condition/problem-1"
       }
+    },
+    {
+      "type": "alternative",
+      "resource": {
+        "reference": "Condition/problem-2"
+      }
     }
   ]
 }
